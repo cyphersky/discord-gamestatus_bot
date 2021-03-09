@@ -49,7 +49,7 @@ client.on('message', async message => {
 
      .setAuthor("Айпи наших серверов")
         .setColor('#228B22')
-        .setDescription("VSRP #1 - 37.230.210.97:27015 [Online "+ play +"/128]\nVSRP #2 - 37.230.210.97:27016 [Online "+ play2 +"/128]")
+        .setDescription("Servername #1 - 37.230.210.97:27015 [Online "+ play +"/128]")
         .setFooter("© VSRP. Все права защищены.")
         .setTimestamp()
       message.channel.send(embed);
